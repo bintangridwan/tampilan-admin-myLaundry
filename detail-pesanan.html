@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Tables - SB Admin</title>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/style.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="sb-nav-fixed">
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <!-- Navbar Brand-->
+    <a class="navbar-brand ps-3" href="dashboard.html">Start Bootstrap</a>
+    <!-- Sidebar Toggle-->
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+    <!-- Navbar Search-->
+    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Search for..." aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+            <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i class="fas fa-search"></i></button>
+        </div>
+    </form>
+    <!-- Navbar-->
+    <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="404.html">Settings</a></li>
+                <li><a class="dropdown-item" href="404.html">Activity Log</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="login.html">Logout</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <!--Menu  Utama-->
+                    <div class="sb-sidenav-menu-heading">Menu Utama</div>
+                    <a class="nav-link" href="dashboard.html">
+                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        Dashboard
+                    </a>
+                    <a class="nav-link" href="pesanan.html">
+                        <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                        Pesanan
+                    </a>
+                    <a class="nav-link" href="kurir.html">
+                        <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                        Kurir
+                    </a>
+                    <a class="nav-link" href="riwayat-pesanan.html">
+                        <div class="sb-nav-link-icon"><i class="fas fa-chart-area"></i></div>
+                        Riwayat Pesanan
+                    </a>
+                    <a class="nav-link" href="produk.html">
+                        <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                        Produk
+                    </a>
+                    <!--Menu Tambahan-->
+                    <div class="sb-sidenav-menu-heading">Menu Tambahan</div>
+                    <a class="nav-link" href="layout-sidenav-light.html" >
+                        <div class="sb-nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon" viewBox="0 0 17 17">
+                                <path d="M6 .278a.77.77 0 0 1 .08.858 7.2 7.2 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277q.792-.001 1.533-.16a.79.79 0 0 1 .81.316.73.73 0 0 1-.031.893A8.35 8.35 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.75.75 0 0 1 6 .278M4.858 1.311A7.27 7.27 0 0 0 1.025 7.71c0 4.02 3.279 7.276 7.319 7.276a7.32 7.32 0 0 0 5.205-2.162q-.506.063-1.029.063c-4.61 0-8.343-3.714-8.343-8.29 0-1.167.242-2.278.681-3.286"/>
+                            </svg>
+                        </div>
+                        Bright Mode
+                    </a>
+                    <a class="nav-link" href="login.html" >
+                        <div class="sb-nav-link-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="17" height="17" fill="currentColor" class="svg-inline--fa fa-chart-area" viewBox="0 0 14 14">
+                                <path fill-rule="evenodd" d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"/>
+                                <path fill-rule="evenodd" d="M15.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708.708L14.293 7.5H5.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708z"/>
+                            </svg>
+                        </div>
+                        Keluar
+                    </a>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Logged in as:</div>
+                Start Bootstrap
+            </div>
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main>
+            <div class="wadah">
+                <div class="header-detail-pesanan">
+                    <h3>Detail Pesanan</h3>
+                    <a href="pesanan.html" class="btn-exit">Keluar
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+                            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="penampung   ">
+                    <div class="bagian-satu">
+                        <h4>Informasi Umum</h4>
+                        <div class="control-group">
+                            <label>Nomor Order</label>
+                            <input type="text" value="#1532" readonly>
+                        </div>
+                        <div class="control-group">
+                            <label>Pengguna</label>
+                            <input type="text" value="Andi Manda" readonly>
+                        </div>
+                        <div class="control-group">
+                            <label>Tanggal</label>
+                            <input type="text" value="15/7/2024" readonly>
+                        </div>
+                        <div class="control-group">
+                            <label>Alamat</label>
+                            <textarea readonly>Jl. Telekomunikasi 1, Terusan Buahbatu - Bojongsoang, Telkom University, Sukapura, Kec. Dayeuhkolot, Kabupaten Bandung, Jawa Barat 40257</textarea>
+                        </div>
+                        <div class="control-group">
+                            <label>Status</label>
+                            <input type="text" value="Kurir dalam Perjalanan" readonly class="status">
+                        </div>
+                    </div>
+                    <div class="bagian-dua">
+                        <h4>Pembayaran</h4>
+                        <div class="control-group">
+                            <label>Cara Pembayaran</label>
+                            <input type="text" value="Mandiri Virtual Account" readonly>
+                        </div>
+                        <div class="control-group">
+                            <label>Jumlah</label>
+                            <input type="text" value="Rp70.000,00" readonly>
+                        </div>
+                    </div>
+                    <div class="bagian-tiga">
+                        <h4>Pesanan</h4>
+                        <div class="control-group">
+                            <label>Daftar Pesanan</label>
+                            <ol>
+                                <li>Cuci Lipat Reguler 8 kg</li>
+                                <li>Cuci Satuan Sprei</li>
+                                <li>Cuci Satuan Jas</li>
+                            </ol>
+                        </div>
+                        <div class="control-group">
+                            <label>Catatan</label>
+                            <textarea readonly>Mas Baju putih dan berwarna dipisah ya</textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid px-4">
+                <div class="d-flex align-items-center justify-content-between small">
+                    <div class="text-muted">Copyright &copy; Your Website 2023</div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="script.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', event => {
+        const datatablesSimple = document.getElementById('datatablesSimple');
+        if (datatablesSimple) {
+            const dataTable = new simpleDatatables.DataTable(datatablesSimple);
+
+            document.getElementById('searchInput').addEventListener('keyup', function() {
+                dataTable.search(this.value);
+            });
+        }
+    });
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="js/scripts.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@7.1.2/dist/umd/simple-datatables.min.js" crossorigin="anonymous"></script>
+<script src="js/datatables-simple-demo.js"></script>
+</body>
+</html>
+
+
+
+
