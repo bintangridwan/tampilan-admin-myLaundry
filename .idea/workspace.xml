@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de0ff43d-a439-4f62-b598-62c7485a499c" name="Changes" comment="" />
+    <list default="true" id="de0ff43d-a439-4f62-b598-62c7485a499c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pesanan.html" beforeDir="false" afterPath="$PROJECT_DIR$/pesanan.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produk.html" beforeDir="false" afterPath="$PROJECT_DIR$/produk.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "pr/1",
-    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/belajar-pzn/belajar-js-object-oriented-programming",
+    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/GitHub/tampilan-admin-myLaundry",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -68,6 +73,7 @@
       <workItem from="1721491302691" duration="16392000" />
       <workItem from="1721975837859" duration="1627000" />
       <workItem from="1722008084608" duration="1387000" />
+      <workItem from="1722109699212" duration="1522000" />
     </task>
     <servers />
   </component>
