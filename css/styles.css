@@ -11128,30 +11128,44 @@ body {
 
 /*Style button dashbord status*/
 .status-pesanan-dashbord{
-  font-size: 14px;
+  font-size: 13px;
   color: white;
   text-align: center;
   border-radius: 5px;
 }
 
 .status-pesanan-dashbord.menunggu-pembayaran{
-    padding: 3px 12px;
+    padding: 2px 12px;
+}
+
+.status-pesanan-dashbord.menunggu-pembayarann{
+  padding: 2px 14px;
 }
 
 .status-pesanan-dashbord.kurir-dalam-perjalanan{
-    padding: 3px 15px;
+    padding: 2px 15px;
 }
 
 .status-pesanan-dashbord.dibatalkan{
-    padding: 3px 53px;
+    padding: 2px 30px;
 }
 
 .status-pesanan-dashbord.selesai{
-    padding: 3px 62px;
+    padding: 2px 40px;
+}
+
+.status-selesai.btn.btn-success{
+  padding: 2px 20px;
+  font-size: 13px;
+}
+
+.status-lanjut.btn.btn-success{
+  padding: 2px 24px;
+  font-size: 13px;
 }
 
 .details-btn {
-  font-size: 14px;
+  font-size: 12px;
   padding: 7px;
   cursor: pointer;
   border-radius: 5px;
@@ -11779,5 +11793,23 @@ body {
 
 table, th, td, tr {
   border: 1px solid #0B1739;
+}
+
+
+.status-selesai-dasbord.btn.btn-success{
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px 60px;
+}
+
+.status-batal-dasbord.btn.btn-danger{
+  font-size: 13px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  padding: 2px 50px;
+
 }
 
