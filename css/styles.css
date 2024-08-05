@@ -11810,6 +11810,32 @@ table, th, td, tr {
   text-align: center;
   border-radius: 5px;
   padding: 2px 50px;
-
 }
+
+/*code css untuk logo  login*/
+
+.logo-laundry {
+  width: 300px;
+  margin-top: 50px;
+}
+
+.div-logo {
+  text-align: center;
+}
+
+.text-login-password-register {
+  color: #0007B0;
+  font-weight: bold;
+  font-size: 45px;
+  text-align: center;
+}
+
+.text-password {
+  color: #0007B0;
+  font-weight: bold;
+  font-size: 33px;
+  text-align: center;
+}
+
+
 
