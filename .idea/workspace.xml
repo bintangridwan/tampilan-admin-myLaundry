@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de0ff43d-a439-4f62-b598-62c7485a499c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="de0ff43d-a439-4f62-b598-62c7485a499c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/GitHub/documentasi-belajar-pzn/belajar-html-css-javascript/belajar-javascript-standard-library",
+    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/GitHub/documentasi-belajar-pzn/belajar-html-css-javascript/belajar-js-DOM",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -75,6 +73,7 @@
       <workItem from="1722149103576" duration="40000" />
       <workItem from="1722670454190" duration="1910000" />
       <workItem from="1722672407799" duration="3743000" />
+      <workItem from="1722889545455" duration="1102000" />
     </task>
     <servers />
   </component>
