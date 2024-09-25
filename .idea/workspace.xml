@@ -76,10 +76,23 @@
       <workItem from="1722889545455" duration="1102000" />
       <workItem from="1727103344074" duration="1569000" />
       <workItem from="1727158197750" duration="2978000" />
+      <workItem from="1727173296158" duration="4573000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tambahkan-produk-baru.html</url>
+          <line>204</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
