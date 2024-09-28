@@ -36,13 +36,14 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/tampilan-admin",
+    "last_opened_file_path": "C:/Users/ThinkpadX270/Documents/GitHub/admin-myLaundry",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -76,23 +77,19 @@
       <workItem from="1722889545455" duration="1102000" />
       <workItem from="1727103344074" duration="1569000" />
       <workItem from="1727158197750" duration="2978000" />
-      <workItem from="1727173296158" duration="4573000" />
-      <workItem from="1727284677408" duration="25000" />
+      <workItem from="1727285031366" duration="3197000" />
+      <workItem from="1727332389782" duration="4747000" />
+      <workItem from="1727359214488" duration="746000" />
+      <workItem from="1727432177224" duration="32000" />
+      <workItem from="1727432587169" duration="1174000" />
+      <workItem from="1727520746188" duration="3323000" />
+      <workItem from="1727524479522" duration="364000" />
+      <workItem from="1727525181690" duration="29000" />
+      <workItem from="1727539243765" duration="321000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/tambahkan-produk-baru.html</url>
-          <line>204</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
